@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pablo Sabio</title>
+
+    <!-- Styles -->
+     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/poppins/poppins.css">
+</head>
+<body>
+    <!--Layout principal-->
+    <div class="layout">
+
+        <!--Barra lateral INFO USUARIO-->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+
+                <!--Info general usuario-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="./assets/img/download.jpeg" class="user-info__image" alt="Foto de Pablo Sabio">
+                    </div>
+
+                    <h2 class="user-info__name">Pablo Sabio</h2>
+                    <h4 class="user-info__job">Web Developer</h4>
+
+                <!--Menu de navegacion -->
+
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                        </li>
+                        <li class="menu__option">
+                            <a href="aboutme.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">About me</span>
+                        </li>
+                        <li class="menu__option">
+                            <a href="studies.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Studies</span>
+                        </li>
+                        <li class="menu__option">
+                            <a href="portfolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portfolio</span>
+                        </li>
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                        </li>
+                        <li class="menu__option">
+                            <a href="contact.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contact</span>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--Links a redes sociales -->
+
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--Boton del cv-->
+
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Download CV</a>
+                </div>
+
+                <!--Footer-->
+
+                <footer class="user-info__footer">
+                    &copy; 2024 Pablo Sabio WEB
+                </footer>
+
+            </section>
+
+        </aside>
+        <main class="layout__content">
+
+            <section class="content__page content__contact">
+
+                <header class="contact__header">
+                    <h1 class="contact__title">Contact</h1>
+                </header>
+                
+                <div class="contact__container">
+
+                    <section class="contact__info">
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-location-dot"></i>
+                            <h2 class="contact__subtitle">Leipzig</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-phone"></i>
+                            <h2 class="contact__subtitle">+34 665374875</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-envelope"></i>
+                            <h2 class="contact__subtitle">pablosabio98@icloud.com</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-circle-check"></i>
+                            <h2 class="contact__subtitle">Freelance Developer</h2>
+                        </div>
+                        
+
+                    </section>
+
+                    <section class="contact__formbox">
+
+                        <div class="contac__map">
+                            <iframe class="contact__iframe" scrolling="no" marginheight="0" marginwidth="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4984.942867183843!2d12.397612277195151!3d51.33924117177554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a6f840fc655bf3%3A0xb4756e9f100579e!2sDresdner%20Str.%2C%2004317%20Leipzig!5e0!3m2!1ses!2sde!4v1724920673459!5m2!1ses!2sde"></iframe>
+                        </div>
+
+                        <header class="contact__form-header">
+                            <h3 class="form-header__title">How can I help <span class="title__color">you?</span></h3>
+                        </header>
+
+                    <form class="contact_form">
+                       <div class="form__container">
+
+                            <section class="form__left">
+                                <div class="form__group">
+                                    <input type="text" class="form__input" name="name" required placeholder="Name">
+                                    <label for="name" class="form__label"></label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" class="form__input" name="email" required placeholder="Email">
+                                    <label for="email" class="form__label"></label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="text" class="form__input" name="subject" required placeholder="Subject">
+                                    <label for="subject" class="form__label"></label>
+                                </div>
+                            </section>
+
+                            <section class="form__right">
+                                <div class="form__group form__group--textarea">
+                                    <textarea class="form__input form__input--textarea" name="message" required placeholder="Message"></textarea>
+                                    <label for="message" class="form__label"></label>
+                                </div>
+                            </section>
+                            
+                            
+                       </div>
+                       <input type="submit" class="form__button" value="Send message">
+                    </form>
+                    </section>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+</body>
+</html>
