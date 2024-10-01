@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Portfolio Pablo Sabio</title>
 
     <!-- Styles -->
@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="./assets/css/scroll.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
 </head>
 <body>
     <!--Layout principal-->
@@ -44,9 +47,9 @@
                                 <span class="menu__overlay">About me</span>
                         </li>
                         <li class="menu__option">
-                            <a href="studies.html" class="menu__link">
+                            <a href="curriculum.html" class="menu__link">
                                 <i class="menu__icon fa-solid fa-graduation-cap"></i>
-                                <span class="menu__overlay">Studies</span>
+                                <span class="menu__overlay">Curriculum</span>
                         </li>
                         <li class="menu__option">
                             <a href="portfolio.html" class="menu__link">
@@ -150,9 +153,9 @@
 
                 <section class="about__services">
                     <header class="services__header">
-                        <h3 class="services__title">
+                        <h2 class="services__title">
                             What I <span class="title__color">Do</span>
-                        </h3>
+                        </h2>
                     </header>
 
                     <div class="services__container">
@@ -195,6 +198,171 @@
                         </article>
                     </div>
                     
+                </section>
+
+                <section class="about__reviews">
+                    <header class="reviews__header">
+                        <h2 class="reviews__title">Reviews</h2>
+                    </header>
+                    <div class="reviews__container">
+
+                        <article class="reviews__review">
+                            <div class="review__img-container">
+                                <img src="./assets/img/testimonio1.jpg" class="review__image" alt="review1">
+                            </div>
+                            <div class="review__description">
+                                <p class="review__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga perferendis harum consequatur in quos reprehenderit natus dolorum impedit nihil. Porro ea vero assumenda similique, beatae minima laudantium voluptates accusantium aspernatur.</p>
+                            </div>
+
+                            <div class="review__author">
+                                <div class="review__author-info">
+                                    <h4 class="review__author-name">Ana López</h4>
+                                    <h5 class="review__company">Developers S.A</h5>
+                                </div>
+                            <div class="review__author-icon">
+                                <i class="review__icon fa-solid fa-quote-right"></i>
+                            </div>
+
+                        </article>
+                        <article class="reviews__review">
+
+                            <div class="review__img-container">
+                                <img src="./assets/img/testimonio2.jpg" class="review__image" alt="review1">
+                            </div>
+                            <div class="review__description">
+                                <p class="review__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga perferendis harum consequatur in quos reprehenderit natus dolorum impedit nihil. Porro ea vero assumenda similique, beatae minima laudantium voluptates accusantium aspernatur.</p>
+                            </div>
+
+                            <div class="review__author">
+                                <div class="review__author-info">
+                                    <h4 class="review__author-name">Rubén Martínez</h4>
+                                    <h5 class="review__company">FullStack S.L</h5>
+                                </div>
+                            <div class="review__author-icon">
+                                <i class="review__icon fa-solid fa-quote-right"></i>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="about__clients">
+                    <header class="clients__header">
+                        <h2 class="clients__title">Clients</h2>
+                    </header>
+                    <section class="clients__container">
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="./assets/img/cliente-1.png" class="clients__image" alt="cliente1">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="./assets/img/cliente-2.png" class="clients__image" alt="cliente2">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="./assets/img/cliente-3.png" class="clients__image" alt="cliente3">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="./assets/img/cliente-4.png" class="clients__image" alt="cliente4">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="./assets/img/cliente-5.png" class="clients__image" alt="cliente5">
+                            </a>
+                        </article>
+                    </section>
+
+                </section>
+
+                <section class="about__prices">
+
+                    <header class="prices__header">
+                        <h2 class="prices__title">Prices</h2>
+                    </header>
+
+                <div class="prices__container">
+
+                    <article class="prices__box">
+                        <div class="prices__subtitle">
+                            <span class="prices__text">Normal</span>
+                        </div>
+                        <div class="prices__price">
+                            <span class="prices__number">20 EUR</span>
+                            <small class="prices__advice">Per month</small>
+                        </div>
+                        <div  class="prices__buy">
+                            <a href="#" class="prices__btn">
+                                Free trial
+                            </a>
+                        </div>
+
+                        <div class="prices__reward">
+                            Web Development Course
+                        </div>
+                        <div class="prices__reward">
+                            Support and FAQ
+                        </div>
+                        <div class="prices__reward">
+                            Final Diploma
+                        </div>
+                    </article>
+
+                    <article class="prices__box">
+                        <div class="prices__subtitle">
+                            <span class="prices__text">Premium</span>
+                        </div>
+                        <div class="prices__price">
+                            <span class="prices__number">50 EUR</span>
+                            <small class="prices__advice">Per month</small>
+                        </div>
+                        <div  class="prices__buy">
+                            <a href="#" class="prices__btn">
+                                Free trial
+                            </a>
+                        </div>
+
+                        <div class="prices__reward">
+                            5 Web Development Course
+                        </div>
+                        <div class="prices__reward">
+                            Personalized Support 
+                        </div>
+                        <div class="prices__reward">
+                            Final Diploma & Practicum
+                        </div>
+                    </article>
+                </div>
+
+                </section>
+
+                <section class="about__extra">
+                    <header class="extra__header">
+                        <h2 class="extra__title">Extra info</h2>
+                    </header>
+
+                    <div class="extra__container">
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-heart"></i>
+                            <h4 class="extra__subtitle">Happy students</h4>
+                            <span class="extra__quantity">375.000</span>
+                        </article>
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-clock"></i>
+                            <h4 class="extra__subtitle">Content hours</h4>
+                            <span class="extra__quantity">800</span>
+                        </article>
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-star"></i>
+                            <h4 class="extra__subtitle">Rate score</h4>
+                            <span class="extra__quantity">9.7/10</span>
+                        </article>
+                        
+                    </div>
                 </section>
 
             </section>

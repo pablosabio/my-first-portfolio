@@ -2,14 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Portfolio Pablo Sabio</title>
 
     <!-- Styles -->
      <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/scroll.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="./assets/css/loader.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+
+    <script src="./js/map.js" defer></script>
 </head>
 <body>
     <!--Layout principal-->
@@ -44,7 +50,7 @@
                                 <span class="menu__overlay">About me</span>
                         </li>
                         <li class="menu__option">
-                            <a href="studies.html" class="menu__link">
+                            <a href="curriculum.html" class="menu__link">
                                 <i class="menu__icon fa-solid fa-graduation-cap"></i>
                                 <span class="menu__overlay">Studies</span>
                         </li>
@@ -140,8 +146,8 @@
 
                     <section class="contact__formbox">
 
-                        <div class="contac__map">
-                            <iframe class="contact__iframe" scrolling="no" marginheight="0" marginwidth="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4984.942867183843!2d12.397612277195151!3d51.33924117177554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a6f840fc655bf3%3A0xb4756e9f100579e!2sDresdner%20Str.%2C%2004317%20Leipzig!5e0!3m2!1ses!2sde!4v1724920673459!5m2!1ses!2sde"></iframe>
+                        <div class="contact__map" id="load-iframe-map">
+                            <span class="loader"></span>
                         </div>
 
                         <header class="contact__form-header">
@@ -154,22 +160,22 @@
                             <section class="form__left">
                                 <div class="form__group">
                                     <input type="text" class="form__input" name="name" required placeholder="Name">
-                                    <label for="name" class="form__label"></label>
+                                    <label for="name" class="form__label">Name</label>
                                 </div>
                                 <div class="form__group">
                                     <input type="email" class="form__input" name="email" required placeholder="Email">
-                                    <label for="email" class="form__label"></label>
+                                    <label for="email" class="form__label">Email</label>
                                 </div>
                                 <div class="form__group">
                                     <input type="text" class="form__input" name="subject" required placeholder="Subject">
-                                    <label for="subject" class="form__label"></label>
+                                    <label for="subject" class="form__label">Subject</label>
                                 </div>
                             </section>
 
                             <section class="form__right">
                                 <div class="form__group form__group--textarea">
                                     <textarea class="form__input form__input--textarea" name="message" required placeholder="Message"></textarea>
-                                    <label for="message" class="form__label"></label>
+                                    <label for="message" class="form__label">Message</label>
                                 </div>
                             </section>
                             

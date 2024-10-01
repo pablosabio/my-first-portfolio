@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Portfolio Pablo Sabio</title>
 
     <!-- Styles -->
      <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/scroll.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
 </head>
 <body>
     <!--Layout principal-->
@@ -44,7 +47,7 @@
                                 <span class="menu__overlay">About me</span>
                         </li>
                         <li class="menu__option">
-                            <a href="studies.html" class="menu__link">
+                            <a href="curriculum.html" class="menu__link">
                                 <i class="menu__icon fa-solid fa-graduation-cap"></i>
                                 <span class="menu__overlay">Studies</span>
                         </li>
@@ -54,7 +57,7 @@
                                 <span class="menu__overlay">Portfolio</span>
                         </li>
                         <li class="menu__option">
-                            <a href="blog.html" class="menu__link">
+                            <a href="blog.html" class="menu__link menu__link--active">
                                 <i class="menu__icon fa-solid fa-book"></i>
                                 <span class="menu__overlay">Blog</span>
                         </li>
@@ -104,8 +107,108 @@
 
         </aside>
         <main class="layout__content">
-            <section class="content__page">
+            <section class="content__page content__blog">
+
+                <header class="blog__header">
+                    <h1 class="blog__title">Blog</h1>
+                </header>
                 
+                <section class="blog__articles">
+
+                    <article class="articles__article">
+
+                        <div class="article__top">
+                            <div class="article__category">Development</div>
+                            <a href="#" class="article__image-link">
+                                <div class="article__mask">
+                                    <img src="./assets/img/articulo-1.jpg" class="article__image" alt="img1">
+                                </div>
+                                <div class="article__logo">
+                                    <i class="article__icon fa-solid fa-book"></i>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="article__bottom">
+                            <time datatime="2024-08-30" class="article__date">30/08/2024</time>
+                            <a href="#" class="article__link">
+                                <h2 class="article__title">How to learn coding in 2024</h2>
+                            </a>    
+                        </div>
+                    </article>
+
+                    <article class="articles__article">
+
+                        <div class="article__top">
+                            <div class="article__category">Development</div>
+                            <a href="#" class="article__image-link">
+                                <div class="article__mask">
+                                    <img src="./assets/img/articulo-2.jpg" class="article__image" alt="img1">
+                                </div>
+                                <div class="article__logo">
+                                    <i class="article__icon fa-solid fa-book"></i>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="article__bottom">
+                            <time datatime="2024-09-05" class="article__date">05/09/2024</time>
+                            <a href="#" class="article__link">
+                                <h2 class="article__title">How to make animations in CSS</h2>
+                            </a>    
+                        </div>
+                    </article>
+
+                    <article class="articles__article">
+
+                        <div class="article__top">
+                            <div class="article__category">Development</div>
+                            <a href="#" class="article__image-link">
+                                <div class="article__mask">
+                                    <img src="./assets/img/articulo-3.jpg" class="article__image" alt="img1">
+                                </div>
+                                <div class="article__logo">
+                                    <i class="article__icon fa-solid fa-book"></i>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="article__bottom">
+                            <time datatime="2024-10-30" class="article__date">30/10/2024</time>
+                            <a href="#" class="article__link">
+                                <h2 class="article__title">How to use LocalStorage in JS</h2>
+                            </a>    
+                        </div>
+                    </article>
+
+                    <article class="articles__article">
+
+                        <div class="article__top">
+                            <div class="article__category">Development</div>
+                            <a href="#" class="article__image-link">
+                                <div class="article__mask">
+                                    <img src="./assets/img/articulo-4.jpg" class="article__image" alt="img1">
+                                </div>
+                                <div class="article__logo">
+                                    <i class="article__icon fa-solid fa-book"></i>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="article__bottom">
+                            <time datatime="2024-08-01" class="article__date">01/08/2024</time>
+                            <a href="#" class="article__link">
+                                <h2 class="article__title">How construct architechture of a web</h2>
+                            </a>    
+                        </div>
+                    </article>
+
+                </section>
+
             </section>
         </main>
     </div>

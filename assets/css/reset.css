@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     vertical-align: baseline;
-
 }
 html {
     scroll-behavior: smooth;
@@ -18,7 +17,6 @@ body {
 
 ul, ol {
     list-style: none;
-
 }
 
 a {
@@ -34,7 +32,6 @@ p a {
 img, video, iframe, picture, figure {
     max-width: 100%;
     display: block;
-
 }
 
 form, input, select, button, label, textarea {

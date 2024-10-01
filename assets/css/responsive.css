@@ -1,0 +1,55 @@
+@media (max-width: 1490px) {
+    body{
+        padding: 0;
+    }
+
+   .layout {
+        min-width: auto;
+        width: 85%;
+   }
+}
+
+@media (max-width: 1320px) {
+    .layout {
+        width: 89%;
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 1160px) {
+    .layout {
+        width: 85%;
+        margin-left: 4rem;
+    }
+    
+    .certificates__certificate {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 1060px) {
+
+    body {
+        background-image: none;
+        position: static;
+    }
+
+    .layout {
+        width: 100%;
+        margin: 0;
+        height: 100%;
+        border-radius: 0;
+
+        grid-template-areas: 'content';
+        grid-template-columns: 100%;
+    }
+
+    .layout__content {
+        border-radius: 0;
+        background-color: transparent;
+    }
+
+    .content__page {
+        border-radius: 0;
+    }
+}
