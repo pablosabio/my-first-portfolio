@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 window.addEventListener("resize", () => {
-    let size = parseInt.document.body.clientWidth;
+    let size = parseInt(document.body.clientWidth);
 
     if(size <= 1060) {
         aside.classList.remove("layout__aside--visible");

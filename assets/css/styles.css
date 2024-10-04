@@ -35,20 +35,24 @@
 
 :root {
     --color-primary: #FFFFFF;
-    --color-secondary: #7d7998;
+    --color-secondary: #918abe;
 
-    --color-background: #b1adcb81;
+    --color-background: #918abe9c;
     --color-transparent: transparent;
 
-    --color-icon: #7d7998;
+    --color-icon: #918abe;
     --color-titles: #222222;
     --color-subtitle: #888;
     --color-text: #555;
+
+    --color-real-background: #f9f9fa;
 
     --color-border-reviews: #E5E6E7;
     --color-company: #A5A6A7;
     --color-background--contact: #FCFCFC;
     --color-background--certificate: #F5F5F5
+
+    
 }
 
 /* ESTILOS GENERALES */
@@ -60,7 +64,7 @@ html{
 body {
     width: 100%;
     height: 100%;
-    background-color: var(--color-background);
+    background-color: var(--color-real-background);
     font-family: 'Poppins', Helvetica, sans-serif;
     font-size: 1.5rem;
     color: var(--color-text);
@@ -215,7 +219,6 @@ body {
 }
 
 .user-info__footer {
-    position: absolute;
     bottom: 2rem;
     padding: 2rem;
     font-size: 1.2rem;
@@ -517,6 +520,7 @@ body {
     margin-bottom: 2rem;
     border-radius: 9rem;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.22);
+    border: 2px solid var(--color-secondary);
 }
 
 .review__description {
@@ -581,7 +585,7 @@ body {
 }
 
 .clients__image {
-    width: 2rem;
+    width: 20rem;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
 }
